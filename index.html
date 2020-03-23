@@ -3,17 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Weather App</title>
+    <title>COVID19 Stats</title>
 </head>
 <body>
-    <div class="container">
-        
+    <header>
+        <nav class="navbar navbar-expand-md  navbar-light fixed-top bg-light">
+          <span class="text-center w-100 nav-title">COVID 19</h3>
+          
+        </nav>
+    </header>
+      <!--Heeader End-->
+
+    <div class="mt-5 pt-2">
+       <div class="jumbotron text-center">
+           <h1>These 3 things can save your life</h2>
+       </div>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-4 text-center">
+                <img class="rounded-circle" src="img/distance.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Keep Distance</h2>
+                <p>Around the world, public officials are asking people who have contracted or been exposed to the new coronavirus to practice social distancing, quarantine or isolation measures in an effort to slow disease’s spread.People asked to stay home due to illness, exposure or active community spread of COVID-19 will likely be cut off from their regular routines for at least two weeks.</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                <img class="rounded-circle" src="./img/mask.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Use Mask</h2>
+                <p>If you are likely to be in close contact with someone infected, a mask cuts the chance of the disease being passed on. If you’re showing symptoms of coronavirus, or have been diagnosed, wearing a mask can also protect others. So masks are crucial for health and social care workers looking after patients.</p>         
+                </div>
+                <div class="col-lg-4 text-center">
+                <img class="rounded-circle" src="./img/handWashing.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2>Wash Hands</h2>
+                <p>Global health chiefs have hailed it as one of the most important ways to prevent catching COVID-19 is to mantain regular and effective hand hygiene.Tedros Adhanom Ghebreyesus, director-general of the World Health Organization (WHO), said hand-washing was also an act of solidarity because it reduces the risk of infecting other people in your community.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9 mx-auto">
+                <div class="output">
+                </div>
+            </div>
+        </div>
     </div>
 
+
+
+    <div class="text-center bg-dark text-light p-4">
+        <h4 class="lead">&copy;2020 by <a href="https://tanvirmahin24.github.io" class="text-light">Tanvir Mahin</a></h3>
+    </div>
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./js/ui.js"></script>
-    <script src="./js/storage.js"></script>
+    <script src="./js/fetch.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
